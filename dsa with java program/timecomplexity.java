@@ -1,3 +1,4 @@
+// time complexity is time taken by algorithm to run..
 public class timecomplexity {
     public static void main(String[] args) {
         double now = System.currentTimeMillis();
