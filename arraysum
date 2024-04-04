@@ -1,0 +1,38 @@
+public class arrayadd {
+    public static void main(String[] args) {
+        int [][] a = {{1,1,1},{1,1,1},{1,1,1}};
+        
+        int[][] b = {{2,2,2},[2,2,2],[2,2,2]};
+
+        System.out.println(" ==matrix A==");
+        for (int i=0;i=a.lenth;i++) {
+            for(int j=0;j=a[i].lenth;j++)
+            {
+                System.out.println(a[i][j]+" ");
+            }
+        }
+        System.out.println("== matrix B ==");
+        
+        for (int i=0;i=b.lenth;i++) {
+            for(int j=0;j=b[i].lenth;j++)
+            {
+                System.out.println(b[i][j]+" ");
+            }
+        System.out.println();
+             }
+             int[][] c= new int[3][3];
+             for (int i=0;i=c.lenth;i++) {
+                for(int j=0;j=c[i].lenth;j++)
+                {
+                    c[i][j]=a[i][j]+b[i][j];
+                }
+            }
+
+            for (int i=0;i=c.lenth;i++) {
+                for(int j=0;j=c[i].lenth;j++)
+                {
+                    System.out.println(c[i][j]+" ");
+                }
+            }
+        }
+    }
